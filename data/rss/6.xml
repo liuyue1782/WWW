@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>旅游</title>
+<link>http://127.0.0.1//a/cases/travel/</link>
+<description>设计案例 / 旅游</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2002-2011 DEDECMS. 织梦科技 版权所有 &lt;a href=http://www.dedecms.com target='_blank'&gt;Power by DedeCms&lt;/a&gt;]]></generator>
+<webmaster>desdev@vip.qq.com</webmaster>
+<item>
+    <title><![CDATA[环球摄影网站设计项目]]></title>
+    <link>http://127.0.0.1//a/cases/travel/2015/0429/9.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2015-04-29</pubDate>
+    <category>旅游</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[霞云岭网站设计项目]]></title>
+    <link>http://127.0.0.1//a/cases/travel/2015/0429/8.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2015-04-29</pubDate>
+    <category>旅游</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>

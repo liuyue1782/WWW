@@ -1,51 +1,70 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-cn">
+<!--所有浏览器都使用zh-cn中文字符集-->
+
+
+
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?a821a161aa4214f5ff5b8ca372960ebb";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+     <!--百度统计代码-->
 <head>
 	<meta charset="UTF-8" />
-	<title>{dede:global.cfg_webname/}</title>
-    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
-    <meta name="description" content="{dede:global.cfg_description/}" />
+	<title>e家装</title>
+    <meta name="keywords" content="装修" />
+    <meta name="description" content="家装 装修 e家装" /> 
+    <!--描述网页，为搜索引擎提供信息-->
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
-    <meta name="copyright" content="Copyright dede58.com 版权所有" />
-    <link href="{dede:global.cfg_templeturl/}/Content/bootstrap.min.css" rel="stylesheet" />
-    
-    <link href="{dede:global.cfg_templeturl/}/Content/index.min.css" rel="stylesheet" />
+    <!--控制页面大小，响应式-->
+    <link href="/templets/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/templets/Content/index.min.css" rel="stylesheet" />
     <!--[if lt IE 9]>
-    <script src="{dede:global.cfg_templeturl/}/Scripts/html5shiv.min.js"></script>
+    <script src="/templets/Scripts/html5shiv.min.js"></script>
     <![endif]-->
-    <script src="{dede:global.cfg_templeturl/}/Scripts/jquery.min.js"></script>
-    <script src="{dede:global.cfg_templeturl/}/Scripts/index.min.js"></script>
+    <script src="/templets/Scripts/jquery.min.js"></script>
+    <script src="/templets/Scripts/index.min.js"></script>
 </head>
 
 <body>
     <header>
         <div class="logo">
-          <img src="{dede:global.cfg_templeturl/}/Picture/logo.png" alt="{dede:global.cfg_webname/}" class="img-responsive" />
+       <!--   <img src="/templets/Picture/logo.png" alt="我的网站" class="img-responsive" /> -->
         </div>
-        <strong class="words">专注高端网站建设</strong>
+
+        <strong class="words">专注互联网自主家装</strong>
+             <!--加粗显示左上角标题-->
         <nav class="menu">
+          <!--定义菜单栏-->
           <ul class="list-inline">
             <li class="active"><a>首页</a></li>
             <li><a>业务</a></li>
-            <li><a>案例</a></li>
-            <li><a>客户</a></li>
-            <li><a>品质</a></li>
-            <li><a>增值</a></li>
-            <li><a>关于</a></li>
-            <li><a>联系</a></li>
+            <li><a>找方案</a></li>
+            <li><a>找家具</a></li>
+            <li><a>技术支持</a></li>
+            <li><a>市场推广</a></li>
+            <li><a>品牌故事</a></li>
+            <li><a>联系我们</a></li>
           </ul>
         </nav>
         <div class="hotline">
-          <a href="tel:4000819097" title="网站建设免费咨询热线"><span>400-0919-097</span></a><u></u>
+          <a href="http://www1.hbe-china.com:9096/houtai123" ><span>后台登录</span></a><u></u>
         </div>
         <div class="menu-icon">
-  			<a href="tel:4000819097" title="点击直拨网站建设热线"><span class="glyphicon glyphicon-earphone"></span></a>
+  			<a href="#" ><span class="glyphicon glyphicon-earphone"></span></a>
+        <!--定义电话形状图标=。=  -->
             <span class="glyphicon glyphicon-th-large"></span>
         </div>
     </header>
     
     <div class="welcome"><p><u>Loading . . .</u></p></div>
-    
+    <!--正在加载-->
     <section class="video">
     	<div class="swiper-container">
             <div class="swiper-wrapper">
@@ -53,47 +72,56 @@
                 <div class="box">
                   <div class="left"></div>
                   <div class="right">
-                	<span>年专注，网站建设</span><i></i>
-                    <p>始于 2008 - 2015 展望未来<br />专注于设计体验，专业于解决方案</p>
+                	<span>年专注，自主家装</span><i></i>
+                    <p>始于 2008 - 2016 展望未来<br />专注于自主DIY室内装修</p>
                   </div>
                 </div>
               </div>
+              <!--第一页展示标签-->
               <div class="swiper-slide nth2">
               	<div class="box">
                 	<span>设计控，也醉了</span><i></i>
-                    <p>不是非要高大上，只是醉心于设计<br />我们想，再上一个好案例</p>
+                    <p>不是非要高大上，只是醉心于设计<br />分享一些好案例，集思广益</p>
                 </div>
               </div>
+               <!--第二页展示标签-->
               <div class="swiper-slide nth3">
               	<div class="box">
-                  <div class="top">技术派，论研发</div>
+                  <div class="top">买家具，一步到位</div>
                   <div class="mid"></div>
-                  <div class="bottom">我说，业界没有最好的技术，只有最棒的技术开发者<br />定制研发，为您的客户和团队</div>
+                  <div class="bottom">家具好不好，先看看大家的体验<br />千家全球知名品牌注册直销，这货源，还有谁</div>
                 </div>
               </div>
+               <!--第三页展示标签-->
               <div class="swiper-slide nth4">
               	<div class="box">
-                  <div class="top"><span>先入为主，布局未来</span><i></i></div>
-                  <div class="bottom">全面布局<u>PC</u>端与<u>移动</u>端<br />抢占头等商机<br />基于<u>Html5</u>响应式布局，智能识别多种终端设备</div>
+                  <div class="top"><span>我们有最棒的核心团队</span><i></i></div>
+                  <div class="bottom">全面服务<u>线上</u>推荐<u>线下</u>维护<br />观全球家居风尚<br />做<u>自己的家装设计师</u>亲自动手DIY，从装修到家具，一步到位</div>
                 </div>
               </div>
             </div>
+             <!--第四页展示标签-->
         </div>
         <div class="innerBox">
+          <!--设置滚动显示news-->
         	<div class="news">
             	<span>NEWS :</span>
                 <a href="/a/news/" title="更多文章动态" class="more" target="_blank">more</a>
                 <ul>
-                   {dede:arclist row='5' titlelen='50' typeid='2'}
-                	<li><a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]...</a></li>
-                   {/dede:arclist}
+                   <li><a href="/a/news/industry/2015/0429/32.html" target="_blank" title="姚良松授予全国工商联家具装饰业商会橱柜专委">姚良松授予全国工商联家具装饰业商会橱柜专委</a></li>
+<li><a href="/a/news/industry/2015/0429/33.html" target="_blank" title="家居卖场营销遇瓶颈 默许商户借外力谋生">家居卖场营销遇瓶颈 默许商户借外力谋生</a></li>
+<li><a href="/a/news/industry/2015/0429/34.html" target="_blank" title="定制与VR当噱头 家居业现跟风潮">定制与VR当噱头 家居业现跟风潮</a></li>
+
                 </ul>
             </div>
             <div class="guide"></div>
             <a class="movedown"></a>
+             <!--定义向下滚动显示-->
         </div>
     </section>
     
+
+    <!--服务介绍页-->
     <section class="business">
       <div class="box">
         <div class="caption">
@@ -102,29 +130,34 @@
         </div>
         <ul class="items list-inline">
         	<li class="pc">
-            	<i></i><strong>高端定制网站</strong>
-                <p>企业高端定制网站设计<br />彰显品牌形象</p>
+            	<i></i><strong>品味风格测评系统</strong>
+                <p>利用涉及风格广泛的装修图，在用户挑选了最喜爱的少数几幅后，后台利用算法分析该用户的品味趋向</p>
             </li>
             <li class="mobi">
-            	<i></i><strong>移动网站建设</strong>
-                <p>定制手机网站 / 微网站制作<br />布局移动互联网</p>
+            	<i></i><strong>推荐功能</strong>
+                <p>根据不同用户品味趋向，后台大数据分析后向每个用户推荐一些评价高、关注度大、专业度高的装修作品信息</p>
             </li>
             <li class="sys">
-            	<i></i><strong>业务系统研发</strong>
-                <p>基于 B/S 架构的系统研发<br />让业务办公轻松自如</p>
+            	<i></i><strong>智能模拟DIY功能</strong>
+                <p>提供海量装修元素，用户自行设置自己的房间基本参数（如面积，形状，窗户位置等）之后，便可以像玩游戏那样尽情装修自己的房间</p>
             </li>
             <li class="app">
-            	<i></i><strong>APP应用程序</strong>
-                <p>基于 iOS / Android 应用开发<br />掌控智能终端时代</p>
+            	<i></i><strong>个人主页功能</strong>
+                <p>发布自己的装修作品，包含照片、装修材料规格、家具品牌型号等。也可以发布智能模拟装修DIY效果图，分享装修心得体验</p>
             </li>
             <li class="host">
-            	<i></i><strong>服务器运维</strong>
-                <p>我们不只提供云硬件和网络<br />更加注重技术运维</p>
+            	<i></i><strong>家具品牌主页功能</strong>
+                <p>千家国内外知名品牌货源挂牌登陆e家装，在线购，有保障</p>
             </li>
         </ul>
       </div>
     </section>
     
+
+
+    <!-- 方案推荐 -->
+
+
     <section class="cases">
       <div class="box">
     	<div class="caption">
@@ -133,77 +166,108 @@
         </div>
         <div class="swiper-container items">
            <div class="swiper-wrapper">
-                 {dede:arclist row='3' titlelen='30' typeid='1'}
-                  <div class="swiper-slide">
-                    <a href="[field:arcurl/]" target="_blank">
-                    <img src="[field:litpic/]" alt="[field:title/]" />
-                    <p>网站设计<br /><strong>[field:title/]</strong><br />[field:id function=GetTags(@me)/]</p></a>
+                 <div class="swiper-slide">
+                  <!--滑动式显示每个案例-->
+                    <a href="http://anli.jiaju.sina.com.cn/bj/anli-32955.html" target="_blank">
+                    <img src="/uploads/allimg/150429/gudian.png" alt="亚特兰大的回忆" />
+                    <p>新古典风格<br /><strong>亚特兰大的回忆</strong><br />工程总价：43万元</p></a>
                   </div>
-                  {/dede:arclist}
+<div class="swiper-slide">
+                    <a href="http://anli.jiaju.sina.com.cn/bj/anli-22255.html" target="_blank">
+                    <img src="/uploads/allimg/150429/dongnanya.png" alt="中色现框" />
+                    <p>东南亚风格<br /><strong>中色现框</strong><br />工程总价：15万元</p></a>
+                  </div>
+<div class="swiper-slide">
+                    <a href="http://anli.jiaju.sina.com.cn/bj/anli-35550.html" target="_blank">
+                    <img src="/uploads/allimg/150429/zhongshi.png" alt="落英雅苑" />
+                    <p>新中式风格<br /><strong>落英雅苑</strong><br />工程总价：48元</p></a>
+                  </div>
+      <!--跳转到各个详细介绍界面-->
            </div>
         </div>
-        <a href="/a/cases/" title="欣赏更多网站建设案例" class="more" target="_blank">MORE</a>
+        <a href="https://zh.airbnb.com/?af=43896654&c=baidu_brd_src_demand_Standard_p1&src=Baidu&medium=PPC&Network=1&kw=2872444151&ad=11236693759&mt=1&ap=cl1&ag_kwid=2299-1-ca8dc8deac4b114c.494dc1b15b5b3cae" title="欣赏更多家装案例" class="more" target="_blank">MORE</a>
       </div>
     </section>
     
-    <section class="clients">
-   	  <div class="box">
-    	<div class="caption">
-        	<i></i><span>他们与织梦长期合作</span>
+
+
+
+
+   <!--  家装品牌页面 -->
+
+
+     <section class="cases">
+      <div class="box">
+      <div class="caption">
+          <i></i><span>他们与e家装长期合作</span>
             <br class="clear" />
         </div>
-        <ul class="items list-inline">
-        	<li class="cctv"><span>CCTV影响力视频网站建设</span></li>
-            <li class="unicom"><span>中国联通电信卡网站制作</span></li>
-            <li class="tsinghua"><span>清华大学国际预科学院网站建设</span></li>
-            <li class="cas"><span>中科院力学研究所网站设计</span></li>
-            <li class="sipo"><span>国家知识产权局网站建设</span></li>
-            <li class="apple"><span>中航苹果官方网站设计</span></li>
-            <li class="das"><span>一汽大众汽车门户网站建设</span></li>
-            <li class="hunantv"><span>湖南卫视全媒体网站建设</span></li>
-            <li class="sino"><span>中环球船务官方网站制作</span></li>
-            <li class="report"><span>中国报道信息门户网站建设</span></li>
-            <li class="gedu"><span>环球雅思教育门户网站制作</span></li>
-            <li class="bgg"><span>京粮集团网站建设</span></li>
-            <li class="bsec"><span>北赛电工官方网站设计</span></li>
-            <li class="huadan"><span>华丹乳业官方网站建设</span></li>
-            <li class="zd"><span>中东集团网站制作</span></li>
-        </ul>
+        <div class="swiper-container items">
+           <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                    <a href="http://www.ikea.com/cn/zh/?cid=ps|cn|FY16_Brand|42196" target="_blank">
+                    <img src="/uploads/allimg/150429/yj.jpg" alt="宜家家居" />
+                    <p>宜家家居<br /><strong>e家装金牌卖家</strong><br />长期合作，品质保障</p></a>
+                  </div>
+<div class="swiper-slide">
+                    <a href="http://www.muji.com.cn" target="_blank">
+                    <img src="/uploads/allimg/150429/wuyin.jpg" alt="无印良品" />
+                    <p>无印良品<br /><strong>e家装畅销卖家</strong><br />协议托管，价格优惠</p></a>
+                  </div>
+<div class="swiper-slide">
+                    <a href="http://www.markorhome.com/" target="_blank">
+                    <img src="/uploads/allimg/150429/meike.png" alt="美克美家" />
+                    <p>美克美家<br /><strong>e家装品质卖家</strong><br />官方通道，注重服务</p></a>
+                  </div>
+
+           </div>
+        </div>
+        <a href="/a/cases/" title="寻找更多与e家装合作的品牌" class="more" target="_blank">MORE</a>
       </div>
     </section>
-    
-    <section class="quality">
+
+<!--包括相应跳转链接设置-->
+
+
+
+  <!--技术分布介绍页面布局-->
+   <section class="quality">
       <div class="box">
-    	<div class="caption">
-        	<i></i><span>不同媒介，同样精彩</span>
+      <div class="caption">
+          <i></i><span>技术分布，同样精彩</span>
             <br class="clear" />
         </div>
         <div class="swiper-container items">
             <div class="swiper-wrapper">
               <div class="swiper-slide nth1">
                 <ul class="list-inline">
-                  <li class="mobi"><span>响应式手机网站建设</span></li><li class="pad"><span>响应式平板网站建设</span></li><li class="pc"><span>响应式PC网站建设</span></li>
+                  <li class="mobi"></li><li class="pad"></li><li class="pc"></li>
                 </ul>
-                <p>触及视觉灵魂的设计趋势<br />精心布局的用户体验<br />毫无顾忌地通过任何终端<br />呈现在客户的眼前</p>
+               <p>团队分工明确<br />工商监管安全可靠<br />购买有保障<br />24小时人工服务</p>
               </div>
               <div class="swiper-slide nth2">
-              	<ul class="list-inline">
-                  <li class="ie"><span>兼容微软IE浏览器的网页设计</span></li><li class="chrome"><span>兼容谷歌Chrome浏览器的网站设计</span></li><li class="firefox"><span>兼容火狐Firefox浏览器的网页设计</span></li><li class="safari"><span>兼容苹果Safari浏览器的网站设计</span></li>
+                <ul class="list-inline">
+                  <li class="ie"></li><li class="chrome"></li><li class="firefox"></li><li class="safari"></li>
                 </ul>
-                <p>Html5 + CSS3 响应式布局<br />卓越的浏览器兼容性<br />因为高端，所以出众</p>
+                <p>IT技术骨干提供视觉支持<br />全方位3D家居环境，轻松模拟DIY<br />因为高端，所以出众</p>
               </div>
               <div class="swiper-slide nth3">
-              	<ul class="list-inline">
-                  <li class="windows"><span>跨windows平台网站制作</span></li><li class="ios"><span>跨ios平台网站制作</span></li><li class="andriod"><span>跨andriod平台网站制作</span></li>
+                <ul class="list-inline">
+                  <li class="windows"></li><li class="ios"></li><li class="andriod"></li>
                 </ul>
-                <p>基于 B/S 架构的网站建设<br />无障碍的跨平台应用<br />无须用户下载安装即可使用<br />云端管理，轻松维护</p>
+                 <p>触及视觉灵魂的设计趋势<br />精心布局的用户体验<br />任何终端e家装无处不在<br />兼容网页、IOS、安卓</p>
+                
               </div>
             </div>
         </div>
-        <a href="http://www.dede58.com" class="lookall" target="_blank">你以为看到了网站的全部？</a>
+          <!--借用了原目标的一些图标-->
+        <a href="/a/cases/" class="lookall" target="_blank">你以为看到了网站的全部？</a>
       </div>
     </section>
-    
+
+   
+
+     <!--优势项目全面介绍页面布局--> 
     <section class="marketing">
       <div class="box">
         <div class="caption">
@@ -239,19 +303,21 @@
       </div>
     </section>
     
+
+      <!--团队介绍页面布局-->
     <section class="aboutus">
-    	<ul class="menu"><li>思想</li><li>关于</li><li>荣誉</li></ul>
+    	<ul class="menu"><li>初衷</li><li>关于</li><li>荣誉</li></ul>
         <div class="swiper-container items">
             <div class="swiper-wrapper">
               <div class="swiper-slide nth1">
-                <strong>厚积薄发</strong>
-                <p>登上峰顶，不是为了饱览风光，是为了寻找更高的山峰<br />日出东方，告别了昨天的荣耀，将光芒照向更远的地方<br />一路上，我们更在意如何积累和沉淀</p>
+                <strong>你遇到过这些问题吗</strong>
+                <p>不懂设计，请设计师又太贵，难以装修出自己满意的风格；想象中的装潢摆设没有效果图可供参考；装修原材料的选择成障碍，是否环保、健康、无污染成为困扰大众的问题；不了解行情，预算难以掌控；装修材料、家具等的中间环节利益空间巨大，商品性价比越来越低；家具品牌鱼龙混杂，选择难度大。装修原材料的选择成障碍。</p>
                 <u>下一秒，让你看，我们到底有多强</u>
               </div>
               <div class="swiper-slide nth2">
-              	<strong>织梦58</strong>
-                <p>成立于2008年，坐落于郑州高新技术开发区，是中国优秀的互联网服务提供商。自成立以来，专注于高端网站建设、移动互联应用、B/S架构系统研发、云服务器部署和运维，为企业客户的互联网应用提供一站式服务。</p>
-                <p>我们始终坚持以客户需求为导向，为追求用户体验设计，提供有针对性的项目解决方案，织梦人将不断地超越自我，挑战险峰！</p>
+              	<strong>e家装</strong>
+                <p>买房租房后的装修改造问题困扰着几乎每一个家庭，尤其是现在的年轻人，想法独特，追求潮流，家装风格不再像以前那样传统，都希望拥有属于自己的别致装修风格。但对于大多数人来说，室内装潢是一门深奥的学科，想要装修出满意的居住环境并非易事。e家装恰好可以解决你的所有顾虑。</p>
+               
               </div>
               <div class="swiper-slide nth3">
               	<strong>放下荣誉，放眼未来</strong>
@@ -259,8 +325,8 @@
                   <li>2009年<u>-</u>荣获经开区创新企业</li>
                   <li>2010年<u>-</u>设计联盟评选为金牌设计企业</li>
                   <li>2010年<u>-</u>荣获经开区高新技术企业</li>
-                  <li>2011年<u>-</u>成功注册 " 织梦 " 商标，树立品牌</li>
-                  <li>2013年<u>-</u>已拥有自主知识产权，国家软件著作权达12项之多</li>
+                  <li>2011年<u>-</u>成功注册 " e家装 " 商标，树立品牌</li>
+                  <li>2013年<u>-</u>拥有自主知识产权和国内外著名家装品牌营销执照</li>
                 </ul>
               </div>
             </div>
@@ -279,43 +345,88 @@
     <section class="contact">
     	<div class="box">
         	<div class="above">
-            	<div class="wechat"><img src="{dede:global.cfg_templeturl/}/Picture/wechat_code.jpg" alt="扫描关注织梦微信公众账号" /></div>
-                <div class="left">
-                	<a href="tel:4006123011" title="网站制作咨询热线" class="tel"></a>
-                    <p>中国<u>·</u>海口<u></u>经济技术开发区<br />联系电话：0371-55688868<u>/</u>55887969<br />地址：经开区第三大街8#1108<br />邮编：450000<a href="/a/job/" target="_blank" class="job">[ 工作机会 ]</a></p>
-                </div>
-                <div class="right">
-                	Email：Service@dede58.com<br />中文域名：织梦.中国<u>/</u>织梦.com<br />Copyright 2008-2015<u></u>织梦58 版权所有<br />豫ICP备 88888888 号<br />豫公网安备 11010802010984 号
+
+
+
+
+
+
+ <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">           <!--  栅格系统中的列是通过指定1到12的值来表示其跨越的范围  -->
+                    <div class="intro-message">
+                       
+                        <h2>点击访问</h2>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+
+
+
+                           <!--  新打开网页至成员个人主页   target="_blank" -->
+                            <li>
+                                <a href="https://sheep4.applinzi.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">万洋的故事</span></a>
+                            </li>
+                            <li>            
+                                <a href="http://1.liuyue1782.applinzi.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">刘悦的故事</span></a>
+                            </li>
+                            <li>            
+                                <a href="https://hushuobadaodawang.applinzi.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">李妍玲的故事</span></a>
+                            </li>
+                            <li>            
+                                <a href="http://3.cindyoshinee.applinzi.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">贾辛甜的故事</span></a>
+                            </li>
+                          <!--   <li>
+                              <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">My VIDEO</span></a>
+                          </li> -->
+                        </ul>
+                    </div>
                 </div>
             </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+            
+
+
+        <!-- /.container -->
+            	<!-- <div class="wechat"><img src="/templets/Picture/wechat_code.jpg" alt="扫描关注织梦微信公众账号" /></div>
+                              <div class="left">
+                                <a href="tel:8008008820" title="网站制作咨询热线" class="tel"></a>
+                                  <p>中国<u>·</u>北京<u></u>海淀区<br />联系电话：18737462784<u>/</u>55887969<br />地址：北京邮电大学<br />邮编：100876<a href="/a/job/" target="_blank" class="job">[ 工作机会 ]</a></p>
+                              </div>
+                              <div class="right">
+                                Email：727265569@qq.com<br />中文域名：localhost<u>/</u>index.html<br />Copyright 2008-2015<u></u>e家装 版权所有<br />豫ICP备 88888888 号<br />豫公网安备 11010802010984 号
+                              </div>
+                          </div> -->
         </div>
     </section>
-    
+
+
+
+      <!--右侧边栏布局设置-->
     <div class="dock">
         <ul class="icons">
         	<li class="up"><i></i></li>
             <li class="im">
-            	<i></i><p>网站建设咨询<br />在线沟通，请点我<a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=3017267&type=n&siteid=4805" target="_blank">在线咨询</a></p>
+            	<i></i><p>家装咨询<br />在线沟通，请点我<a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=3017267&type=n&siteid=4805" target="_blank">在线咨询</a></p>
             </li>
             <li class="tel">
-            	<i></i><p>建站咨询热线：<br />400-0919-097<br />售后电话：<br />0371-55617968</p>
+            	<i></i><p>电话咨询热线：<br />400-820-8820<br />售后电话：<br />5617968</p>
             </li>
             <li class="wechat">
-            	<i></i><p><img src="{dede:global.cfg_templeturl/}/Picture/wechat_code.jpg" alt="扫描关注网站建设微信公众账号" /></p>
+            	<i></i><p><img src="/templets/Picture/wechat_code.jpg" alt="扫描关注网站建设微信公众账号" /></p>
             </li>
             <li class="down"><i></i></li>
         </ul>
         <a class="switch"></a>
     </div>
     
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.js?a821a161aa4214f5ff5b8ca372960ebb";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+
 </body>
 </html>
